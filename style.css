@@ -325,7 +325,7 @@ footer{
     /*border-top: 1PX solid white;*/
 }
     
-    .sub-b1{
+ .sub-b1{
         /*border: 1px solid white;*/
     }
 
@@ -519,3 +519,26 @@ nav {
 .divider1{
     display: block;
 }
+
+.cont-form .input {
+   
+        border-radius: 20px;
+        padding: 20px;
+      
+}
+
+.grid-form  {
+    text-align: center;
+    justify-items: center;
+    background-color: #000;
+    grid-area: footer;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+     
+   
+    
+}
+
+
