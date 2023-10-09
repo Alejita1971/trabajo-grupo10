@@ -3,25 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>MinervaStore</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <div class="grid-form ">
-        <img src="images/skull2.svg">
-        <h2>Minerva<span>Store</span>.</h2>
-    </div>   
-<div class="cont-form">
+   
+    <div class="grid-container">
+        
+        <div class="grid-item item2">
+            <img src="../images/skull2.svg">
+            <h2>Minerva<span>Store</span>.</h2>
+        </div>
+    </div>
+</body><br><br>
+     
+    
+<div class="container">
     <form target="_blank" class="input">
-        <label for="nombre">Nombre</label><br>
-        <input type="text" id="nombre" name="nombre"><br>
-        <label for="apellido">Apellido</label><br>
-        <input type="text" id="apellido" name="apellido"><br>
-        <label for="mail">E-mail</label><br>
-        <input type="text" id="mail" name="mail"><br><br>
-        <textarea name="mensaje" rows="10" cols="40" placeholder="En que podemos ayudarte"></textarea><br>
-        <input type="submit" class="boton" value="Enviar">
-        <input type="reset" class="boton" value="Reset">
+        <div class="row">
+            <div class="col-25">
+                 <label for="nombre">Nombre</label><br>
+            </div>
+            <div class="col-75">
+                 <input type="text" id="nombre" name="nombre" placeholder="Su nombre...">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                 <label for="nombre">Apellido</label><br>
+            </div>
+            <div class="col-75">
+                 <input type="text" id="apellido" name="apellido" placeholder="Su apellido...">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                 <label for="nombre">Email</label><br>
+            </div>
+            <div class="col-75">
+                 <input type="text" id="mail" name="mail" placeholder="Su mail...">
+            </div>
+        </div>
+     
+        <div class="row">
+            <div class="col-25">
+              <label for="subject">Consulta</label>
+            </div>
+            <div class="col-75">
+              <textarea id="consu" name="consu" placeholder="En que podemos ayudarte.." style="height:200px"></textarea>
+            </div>
+          </div>
+        
+          <div class="row">
+            <input type="submit" value="Reset">
+          </div>
+        
     </form>
 </div>
 </body>
